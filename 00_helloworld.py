@@ -1,27 +1,21 @@
-### Hola Mundo ###
+# Introduction
+# Day 1 - 30DaysOfPython Challenge
 
-# Our hello world in Python
-print("Hola Python")
-print('Hola Python')
+print(2 + 3)   # addition(+)
+print(3 - 1)   # subtraction(-)
+print(2 * 3)   # multiplication(*)
+print(3 / 2)   # division(/)
+print(3 ** 2)  # exponential(**)
+print(3 % 2)   # modulus(%)
+print(3 // 2)  # Floor division operator(//)
 
-# This is a comment
+# Checking data types
 
-"""
-Este es un
-comentario
-en varias líneas
-"""
-
-'''
-Este también es un
-comentario
-en varias líneas
-'''
-
-# Cómo consultar el tipo de dato
-print(type("Soy un dato str")) # Tipo 'str'
-print(type(5)) # Tipo 'int'
-print(type(1.5)) # Tipo 'float'
-print(type(3 + 1j)) # Tipo 'complex'
-print(type(True)) # Tipo 'bool'
-print(type(print("Mi cadena de texto"))) # Tipo 'NoneType'
+print(type(10))                  # Int
+print(type(3.14))                # Float
+print(type(1 + 3j))              # Complex
+print(type('Asabeneh'))          # String
+print(type([1, 2, 3]))           # List
+print(type({'name': 'Asabeneh'}))  # Dictionary
+print(type({9.8, 3.14, 2.7}))    # Set
+print(type((9.8, 3.14, 2.7)))    # Tuple
